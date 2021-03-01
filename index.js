@@ -32,4 +32,5 @@ startBtnRef.addEventListener('click', event => {
 
 stopBtnRef.addEventListener('click', event => {
   clearInterval(colorId);
+  isActiveStartBtn = false;
 });
